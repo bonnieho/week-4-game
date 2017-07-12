@@ -1,0 +1,38 @@
+/* These are the custom styles for a class project game created in Javascript and jQuery
+Author: Bonnie L. Hoffman - bonnieho@rice.edu */
+
+/* CrystalsCollector! */
+
+/* main div to hold the children together  */
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	color: #999;
+}
+
+
+#main {
+	width: 65%;
+	margin: auto;
+}
+
+
+h1 {
+	font-size: 120%;
+	margin: 24px;
+}
+
+
+h2 {
+	font-size: 110%;
+	margin: 20px;
+	padding: 24px;
+	text-align: center;
+}
+
+
+h3 {
+	font-size: 100%;
+	margin: 24px;
+	margin-left: 30%;
+}
