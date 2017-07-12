@@ -23,15 +23,45 @@
 	</head>
 	<body>
 		<div id="main">
+			<h1>CrystalsCollector!</h1>
+        		<div class="instructions">
+        			<p>How to play the game:<br />
+        			A random number will be generated at the start of each game.</p>
+        			<p>There are four "crystal" buttons below. By clicking on a crystal, you will add a specific amount of points to your total sum.</p>
+        			<p>You win the game by matching <span class="ital">your total sum</span> to the randomly generated target number exactly. If your total sum goes over the amount of the target number, you lose the game.</p>
+        			<p>The value of each crystal button will be unknown to you until you select it.</p>
+        			<p>Each time the game starts, the values of each crystal will change.</p>
+        			<p>Good luck!</p>
+        		</div>
 
-			<p id="targetnumber"></p>
-			<p id="mynumsum"></p>
-			<p id="wincount"></p>
-			<p id="losscount"></p>
-			<button id="button_one" class="numbtn">
-			<button id="button_two" class="numbtn">
-			<button id="button_three" class="numbtn">
-			<button id="button_four" class="numbtn">
+
+			<div class="number-box target">
+				<h2>Target Number:<br />&#160;<br />
+					<span id="targetnumber"></span>
+				</h2>
+			</div>
+
+			<div class="number-box mynum">
+				<h2>My Sum:<br />&#160;<br />
+					<span id="mynumsum"></span>
+				</h2>
+			</div>
+
+			<div id="win-loss-box">
+				<p class="wins">Wins:<br />
+					<span id="wincount"></span>
+				</p>
+				<p class="losses">Losses:<br />
+					<span id="losscount"></span>
+				</p>
+			</div>
+			
+			<div id="btn-parent">
+				<button id="button_one" class="numbtn">
+				<button id="button_two" class="numbtn">
+				<button id="button_three" class="numbtn">
+				<button id="button_four" class="numbtn">
+			</div>
 
 		<!-- END main DIV -->
 		</div>
