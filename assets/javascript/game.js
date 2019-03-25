@@ -189,7 +189,6 @@ $(document).ready(function(){
 			document.getElementById("wincount").innerHTML = countWins;
 			document.getElementById("losscount").innerHTML = countLosses;
 			
-					
 		}
 
 
